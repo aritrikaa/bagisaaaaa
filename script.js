@@ -21,7 +21,7 @@ const CONTENT = {
   login: {
     username: "VAGISHA",   // EDITABLE: correct username (case-sensitive)
     password: "vagisha",   // EDITABLE: correct password (case-sensitive)
-    wrong: "EH?! Wrong password! Even Shin Chan knows this one! 😭", // EDITABLE
+    wrong: "EH?! Wrong password! Sahi me Shin Chan ho ka??", // EDITABLE
     ok: "MISSION ACCEPTED! 🎉"                                        // EDITABLE
   },
   buttons: {
@@ -50,7 +50,7 @@ const CONTENT = {
       bad: "Oh chaar dimaagi, pagla gaye ho??? That gadget won't take you there! Waapsi kar",
       letter: { theme: "pink", heading: "A LITTLE NOTE FOR MY FAVOURITE HUMAN 💗",
         // EDITABLE LETTER 1 — replace everything between the quotes (use \n for new lines)
-        text: "[EDITABLE LETTER 1: Write a personal birthday wish introducing the adventure, expressing how much your best friend means to you, and wishing her a magical sixteenth birthday.]" }
+        text: "Darling ka happy bday hai ommmzzzz I LOVE MY SWEET 16 SM MWAH, meri 3 mahine ki mehnat hai ye tere and uksita dono ke liye banayi hai. sem sem hai but thoda diff cuz ek banane me hi thodi haalat tight hogayi. i made this parents safe just in case lol. thoda phone lelia so no story :( kal party pr milega phone tb lagaungi. ab talo zaldi se Kwik Kwik next quests complete kro and mere 16 bday notes padho 😝😝😝" }
     },
     { /* ---------- QUEST 2: snack detective ---------- */
       title: "QUEST 2: THE GREAT SNACK MYSTERY",
@@ -66,8 +66,8 @@ const CONTENT = {
       answer: "Chocolate chip cookies", // EDITABLE
       ok: "CASE CLOSED! SHIN CHAN LWK SUSSY BAKA, BUT YOU DID IT. 🍪",
       bad: "DETECTIVE FAIL! Shin Chan has eaten the evidence. WAAPSI KAR!",
-      letter: { theme: "cookie", heading: "A SNACKY SURPRISE FOR YOU 🍪",
-        text: "[EDITABLE LETTER 2: Write a funny, affectionate birthday letter about your friendship, shared jokes, embarrassing memories, and the little things that make your best friend special.]" }
+      letter: { theme: "cookie", heading: "CHOCOLATE LANA HAI AAJ🍪",
+        text: "ARE WAO CUTIE ZI dimaag hai tumme haaiinn???? yaar i genuinely wish this is your sweetest and best bday ever yaawwwwrrrrr. may this yr and the next ones be the happiest you ever have shonaaaaa" }
     },
     { /* ---------- QUEST 3: memory match ---------- */
       title: "QUEST 3: THE MEMORY MIX-UP",
@@ -76,8 +76,8 @@ const CONTENT = {
       type: "memory", guide: "cat", bg: "q3",
       ok: "MEMORY RESTORED! Are ye cartooni insaan me to kaafi patience hai gng",
       bad: "",
-      letter: { theme: "memory", heading: "OUR MEMORY LANE 📸",
-        text: "[EDITABLE LETTER 3: Write a nostalgic birthday letter about your favourite memories together, how your friendship has grown, and the moments you hope to share in the future.]" }
+      letter: { theme: "memory", heading: "GOOD MORNING 📸",
+        text: "honestly this shi took me A LOT of tem and mera matlb A LOT. Even ai couldn't help me in ts bhai. but worth it anyways lol if it makes u happy and smile and shimmer and shine, pretty dancer" }
     },
     { /* ---------- QUEST 4: riddle ---------- */
       title: "QUEST 4: THE NONSENSE ESCAPE",
@@ -93,8 +93,8 @@ const CONTENT = {
       answer: "A birthday", // EDITABLE
       ok: "ARE WAH MERE SHER 🎉",
       bad: "dimaag ni hai tum me??? 💀",
-      letter: { theme: "notebook", heading: "A SILLY BUT TRUE LETTER 🤡💗",
-        text: "[EDITABLE LETTER 4: Write a heartfelt letter celebrating her personality, her quirks, her strengths, and all the reasons you are grateful to have her as your best friend.]" }
+      letter: { theme: "notebook", heading: "ZYADA CHALAK? 🤡💗",
+        text: "oh zyada easy krdia kya maine???? (bol to aese rahi hu jaise ki tuff wala coding meko aata ho lol. i only know html and java and thoda sa css bhai 🙏🏼🙏🏼" }
     },
     { /* ---------- QUEST 5: sixteen candles ---------- */
       title: "QUEST 5: LEVEL 16 UNLOCKED!",
@@ -105,7 +105,7 @@ const CONTENT = {
       okSub: "You have officially unlocked sixteen little pieces of birthday happiness.",
       bad: "",
       letter: { theme: "party", heading: "HAPPY BIRTHDAY, BIRTHDAY GIRL! 🎉",
-        text: "[EDITABLE LETTER 5: Write the big finale letter before the sixteen surprises — a warm, emotional birthday message to introduce the final notes.]" }
+        text: "oh yo hell naw, u did 'em all so Kwik, gng. dayumn bro. but then meri bestie hai to chant chalak to hogi hiiii heheheheheheh" }
     }
   ]
 };
@@ -114,37 +114,37 @@ const CONTENT = {
    theme options: pink, blue, yellow, mint, lavender, peach, red.  \n = new line. */
 const NOTES = [
   // NOTE 1 — idea: a simple birthday wish
-  { id: 1,  title: "NOTE 01", message: "[EDITABLE BIRTHDAY NOTE 1]",  theme: "pink" },
+  { id: 1,  title: "NOTE 01", message: "CHOCOLATE CHAAHIYE",  theme: "pink" },
   // NOTE 2 — idea: how special she is
-  { id: 2,  title: "NOTE 02", message: "[EDITABLE BIRTHDAY NOTE 2]",  theme: "blue" },
+  { id: 2,  title: "NOTE 02", message: "meri bestie ho tum, and i am so so so so grateful to have met you aywwr, you make everything so good and fun",  theme: "blue" },
   // NOTE 3 — idea: a funny friendship memory
-  { id: 3,  title: "NOTE 03", message: "[EDITABLE BIRTHDAY NOTE 3]",  theme: "yellow" },
+  { id: 3,  title: "NOTE 03", message: "i freaking LOVE u singing and dancing yawr, please keep on slayying",  theme: "yellow" },
   // NOTE 4 — idea: an appreciation note
-  { id: 4,  title: "NOTE 04", message: "[EDITABLE BIRTHDAY NOTE 4]",  theme: "mint" },
+  { id: 4,  title: "NOTE 04", message: "I'LL MISS U SM NEXT YR if i make it out of here lol U DA BEST",  theme: "mint" },
   // NOTE 5 — idea: her strengths
-  { id: 5,  title: "NOTE 05", message: "[EDITABLE BIRTHDAY NOTE 5]",  theme: "lavender" },
+  { id: 5,  title: "NOTE 05", message: "plij don't die soon, welp",  theme: "lavender" },
   // NOTE 6 — idea: a wish for her dreams
-  { id: 6,  title: "NOTE 06", message: "[EDITABLE BIRTHDAY NOTE 6]",  theme: "peach" },
+  { id: 6,  title: "NOTE 06", message: "I LOVE YOUUUUU",  theme: "peach" },
   // NOTE 7 — idea: silly inside joke
-  { id: 7,  title: "NOTE 07", message: "[EDITABLE BIRTHDAY NOTE 7]",  theme: "red" },
+  { id: 7,  title: "NOTE 07", message: "wait mai thodi si thak gayi hu 🙏🏼",  theme: "red" },
   // NOTE 8 — idea: she deserves happiness
-  { id: 8,  title: "NOTE 08", message: "[EDITABLE BIRTHDAY NOTE 8]",  theme: "pink" },
+  { id: 8,  title: "NOTE 08", message: "HAPPY BDAYYY TOO YOUUUUUUUUU HAPPY BDAY TOO YOUUUUUUUUU",  theme: "pink" },
   // NOTE 9 — idea: celebrating her individuality
-  { id: 9,  title: "NOTE 09", message: "[EDITABLE BIRTHDAY NOTE 9]",  theme: "blue" },
+  { id: 9,  title: "NOTE 09", message: "HAPPY BDAY DEAR BAGISAAAAAAAAA HAPPY BDAY TO YOU",  theme: "blue" },
   // NOTE 10 — idea: friendship appreciation
-  { id: 10, title: "NOTE 10", message: "[EDITABLE BIRTHDAY NOTE 10]", theme: "yellow" },
+  { id: 10, title: "NOTE 10", message: "YAWR AAP SO CUTU MAY U BE BLESSED WITH ALL THE STRENGTH REQUIRED TO OVERCOME AL YOUR FUTURE OBSTCALES AND PROBELMS", theme: "yellow" },
   // NOTE 11 — idea: future adventures
-  { id: 11, title: "NOTE 11", message: "[EDITABLE BIRTHDAY NOTE 11]", theme: "mint" },
+  { id: 11, title: "NOTE 11", message: "BOARDS ME SLAAYYYYY", theme: "mint" },
   // NOTE 12 — idea: encouragement for difficult days
-  { id: 12, title: "NOTE 12", message: "[EDITABLE BIRTHDAY NOTE 12]", theme: "lavender" },
+  { id: 12, title: "NOTE 12", message: "love u hai yar", theme: "lavender" },
   // NOTE 13 — idea: funny cartoon-themed message
-  { id: 13, title: "NOTE 13", message: "[EDITABLE BIRTHDAY NOTE 13]", theme: "peach" },
+  { id: 13, title: "NOTE 13", message: "ragebaiting u is fun", theme: "peach" },
   // NOTE 14 — idea: sixteen years of life
-  { id: 14, title: "NOTE 14", message: "[EDITABLE BIRTHDAY NOTE 14]", theme: "red" },
+  { id: 14, title: "NOTE 14", message: "I REMEMBER U IN KG UNIFORM WAVI G AT OUR BUS lol so pyara", theme: "red" },
   // NOTE 15 — idea: promise of friendship
-  { id: 15, title: "NOTE 15", message: "[EDITABLE BIRTHDAY NOTE 15]", theme: "pink" },
+  { id: 15, title: "NOTE 15", message: "happy bday yawr", theme: "pink" },
   // NOTE 16 — idea: the biggest, most emotional final wish (gets the special big-envelope treatment)
-  { id: 16, title: "NOTE 16", message: "[EDITABLE BIRTHDAY NOTE 16]", theme: "red" }
+  { id: 16, title: "NOTE 16", message: "I love you so much ion have anything more to say. KAL LETTER DUNGI VO PADHNA, EMO EMO SA SUNDAR SUNDAR SA", theme: "red" }
 ];
 
 const SOUND_DEFAULT_ON = false; // keep false: browsers block sound before a click anyway
