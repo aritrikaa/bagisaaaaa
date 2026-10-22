@@ -36,7 +36,7 @@ const CONTENT = {
   quests: [
     { /* ---------- QUEST 1: choice puzzle ---------- */
       title: "QUEST 1: THE GADGET RESCUE",
-      intro: "Psst! Doraemon's gadget box has been scrambled! The birthday girl must save the day!",
+      intro: "Psst! Doraemon ka gadget box thoda mess up ho gaya. The birthday girl must save the day 😝",
       question: "Which gadget would you use to travel to another place instantly?",
       type: "choice", guide: "cat", bg: "q1",
       options: [ // EDITABLE: labels/icons (answer must match a label exactly)
@@ -46,15 +46,15 @@ const CONTENT = {
         { label: "Invisible Cloak", icon: "🧥" }
       ],
       answer: "Anywhere Door", // EDITABLE: correct answer
-      ok: "DING DING DING! You have a functioning brain! 🎉",
-      bad: "NOOO! That gadget won't take you there! Try again, genius. 😂",
+      ok: "DING DING DING! OMZ tere me dimaag hai! 🎉",
+      bad: "Oh chaar dimaagi, pagla gaye ho??? That gadget won't take you there! Waapsi kar",
       letter: { theme: "pink", heading: "A LITTLE NOTE FOR MY FAVOURITE HUMAN 💗",
         // EDITABLE LETTER 1 — replace everything between the quotes (use \n for new lines)
         text: "[EDITABLE LETTER 1: Write a personal birthday wish introducing the adventure, expressing how much your best friend means to you, and wishing her a magical sixteenth birthday.]" }
     },
     { /* ---------- QUEST 2: snack detective ---------- */
       title: "QUEST 2: THE GREAT SNACK MYSTERY",
-      intro: "SHIN CHAN HAS DONE SOMETHING ILLEGAL IN THE SNACK DEPARTMENT. THE EVIDENCE IS MISSING. HELP. 🚨",
+      intro: "SHIN CHAN NE SNACK DEPARTMENT SE CHORI KRLI (waapis). THE EVIDENCE IS MISSING. HELP. 🚨",
       question: "CLUE: Shin Chan ate the snack that is round, has chocolate chips, and is definitely not ice cream.",
       type: "choice", guide: "kid", bg: "q2", snack: true,
       options: [
@@ -64,8 +64,8 @@ const CONTENT = {
         { label: "Chocolate chip cookies", icon: "🍪" }
       ],
       answer: "Chocolate chip cookies", // EDITABLE
-      ok: "CASE CLOSED! SHIN CHAN IS STILL SUSPICIOUS, BUT YOU DID IT. 🍪",
-      bad: "DETECTIVE FAIL! Shin Chan has eaten the evidence. Try again!",
+      ok: "CASE CLOSED! SHIN CHAN LWK SUSSY BAKA, BUT YOU DID IT. 🍪",
+      bad: "DETECTIVE FAIL! Shin Chan has eaten the evidence. WAAPSI KAR!",
       letter: { theme: "cookie", heading: "A SNACKY SURPRISE FOR YOU 🍪",
         text: "[EDITABLE LETTER 2: Write a funny, affectionate birthday letter about your friendship, shared jokes, embarrassing memories, and the little things that make your best friend special.]" }
     },
@@ -74,14 +74,14 @@ const CONTENT = {
       intro: "DORAEMON'S MEMORY MACHINE HAS MIXED UP THE UNIVERSE'S MOST IMPORTANT THINGS. FIX IT BEFORE EVERYTHING TURNS INTO CAKE. 🎂",
       question: "Match all six pairs of cards!",
       type: "memory", guide: "cat", bg: "q3",
-      ok: "MEMORY RESTORED! Your brain has officially survived cartoon physics. 🧠✨",
+      ok: "MEMORY RESTORED! Are ye cartooni insaan me to kaafi patience hai gng",
       bad: "",
       letter: { theme: "memory", heading: "OUR MEMORY LANE 📸",
         text: "[EDITABLE LETTER 3: Write a nostalgic birthday letter about your favourite memories together, how your friendship has grown, and the moments you hope to share in the future.]" }
     },
     { /* ---------- QUEST 4: riddle ---------- */
       title: "QUEST 4: THE NONSENSE ESCAPE",
-      intro: "SHIN CHAN HAS INVENTED A MACHINE THAT GENERATES NONSENSE. UNFORTUNATELY, IT HAS LOCKED THE EXIT. SOLVE ITS RIDDLE TO ESCAPE. 😭",
+      intro: "SHIN CHAN HAS INVENTED A MACHINE. UNFORTUNATELY, ISS GAWAR NE EXIT LOCK KRDI. SOLVE THE RIDDLE TO ESCAPE. 😭",
       question: "I appear once every year, bring candles and cake, and make everyone say you're getting older. What am I?",
       type: "choice", guide: "kid", bg: "q4", cake: true,
       options: [
@@ -91,14 +91,14 @@ const CONTENT = {
         { label: "A refrigerator", icon: "🧊" }
       ],
       answer: "A birthday", // EDITABLE
-      ok: "YOU ESCAPED THE NONSENSE FACTORY! 100/10 BRAINPOWER! 🎉",
-      bad: "BESTIE. THE REFRIGERATOR DOES NOT HAVE A BIRTHDAY PARTY. TRY AGAIN. 💀",
+      ok: "ARE WAH MERE SHER 🎉",
+      bad: "dimaag ni hai tum me??? 💀",
       letter: { theme: "notebook", heading: "A SILLY BUT TRUE LETTER 🤡💗",
         text: "[EDITABLE LETTER 4: Write a heartfelt letter celebrating her personality, her quirks, her strengths, and all the reasons you are grateful to have her as your best friend.]" }
     },
     { /* ---------- QUEST 5: sixteen candles ---------- */
       title: "QUEST 5: LEVEL 16 UNLOCKED!",
-      intro: "YOU DID IT, VAGISHA! YOU SURVIVED THE GADGETS, THE SNACK CRIME, THE MEMORY MACHINE, AND SHIN CHAN'S NONSENSE. NOW COMES YOUR REAL REWARD. 💗",
+      intro: "OH WAO LAADLI, YOU SURVIVED THE GADGETS, THE SNACK CRIME, THE MEMORY MACHINE, AND SHIN CHAN'S NONSENSE. AB YE LO",
       question: "Click all sixteen candles to light them!",
       type: "candles", guide: "both", bg: "q5",
       ok: "HAPPY SWEET SIXTEEN, VAGISHA! 🎂💗",
